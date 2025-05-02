@@ -142,14 +142,14 @@ Most common requests include:
 3.	Catchbasin
 
 
-## 🖥️ Interactive Dashboard
+##  Interactive Dashboard
 We developed a live, interactive dashboard to explore animal-related 311 service request data using Dash and Plotly. The dashboard provides an intuitive way to analyze trends and patterns in complaints from 2021 to 2025 that were automatically classified into refined categories using NLP and clustering.
 
 
 https://github.com/user-attachments/assets/7bc5061b-cd8f-45c3-b310-87f6a011fe22
 
 
-## 🔍 Key Features:
+## Key Features:
 Filter by Animal Case Type
 Easily select specific categories like “Stray Dog/Cat” or “Wildlife Sighting” to narrow your analysis.
 
