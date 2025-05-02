@@ -143,12 +143,18 @@ Most common requests include:
 3.	Catchbasin
 
 
-## Interactive Dashboard
-We developed a live dashboard to explore animal-related cases using Dash + Plotly:
-## Features:
-•	Filter by animal case type
-•	View time series plots of complaint volumes
-•	Explore case locations on an interactive map
+## 🖥️ Interactive Dashboard
+We developed a live, interactive dashboard to explore animal-related 311 service request data using Dash and Plotly. The dashboard provides an intuitive way to analyze trends and patterns in complaints from 2021 to 2025 that were automatically classified into refined categories using NLP and clustering.
+
+## 🔍 Key Features:
+Filter by Animal Case Type
+Easily select specific categories like “Stray Dog/Cat” or “Wildlife Sighting” to narrow your analysis.
+
+Time Series Visualization
+View dynamic line charts showing how complaint volumes change over time for each selected category.
+
+Interactive Map View
+Explore the geographic distribution of complaints on a zoomable map of Boston, color-coded by animal category.
 
 
 ### To run the dashboard: <br/>
