@@ -41,9 +41,8 @@ This project analyzes animal-related complaints submitted through Boston's 311 a
 - **Seasonal Decomposition**: Identified seasonal patterns in monthly data
 
 ### Animal Type Classification
-- **Text-based Classification**: Developed a rule-based classifier to categorize complaints by animal type
-- **Hierarchical Categorization**: Primary categories include Other Animal, Cat, Rat/Rodent, and more
-
+- **Text-based Classification**: We processed the case_title and closure_reason fields using natural language techniques and clustered similar complaints using TF-IDF and KMeans, grouping them by meaning rather than keywords alone.
+- **Hierarchical Categorization**: Based on the clustered results, we labeled each group into one of five meaningful categories: Dead Animal, Stray Dog/Cat, Animal Bite, Aggressive Behavior, and Wildlife Sighting.
 ### Geographic Clustering
 - **K-means Clustering**: Applied K-means algorithm to identify geographic hotspots
 - **Parameters**:
