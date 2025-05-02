@@ -206,9 +206,9 @@ https://github.com/user-attachments/assets/0995a8be-aaf2-4eb7-922c-3f928588e00e
 │       └── text_mining.ipynb
 |   └── Pranshu_EDA/         # Pranshu's exploratory data analysis
 │       ├── animal_case_plots
-│       ├── 2025.ipynb
-│       ├── dash.py
-|       └── data.csv
+│       ├── 2025.ipynb          
+│       ├── animal_classification.py
+|       └── dashboard.py
 ├── outputs/                # Generated analysis outputs
 │   ├── cleaned_animal_complaints.csv  # Cleaned data
 │   ├── analysis_report.md  # Comprehensive findings report
